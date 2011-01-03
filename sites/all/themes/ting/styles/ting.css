@@ -1,3 +1,12 @@
+.page-inner {
+  padding: 0;
+}
+
+.header-group-wrapper {
+  background: #cfde28 url('../gfx/header-gradient-bg.gif') repeat-x top center;
+  min-height: 225px;
+}
+
 .primary-menu-inner ul.sf-menu a:hover,
 .primary-menu-inner ul.sf-menu a:active,
 .primary-menu-inner ul.sf-menu a:focus,
