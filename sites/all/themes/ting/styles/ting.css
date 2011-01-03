@@ -1,0 +1,7 @@
+.primary-menu-inner ul.sf-menu a:hover,
+.primary-menu-inner ul.sf-menu a:active,
+.primary-menu-inner ul.sf-menu a:focus,
+.primary-menu-inner ul.sf-menu li.active-trail > a,
+.primary-menu-inner ul.sf-menu li.sfHover > a {
+  background-color: #9fb400;
+}

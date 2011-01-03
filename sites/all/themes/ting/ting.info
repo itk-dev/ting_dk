@@ -1,0 +1,8 @@
+name        = Ting
+description = Theme for the ting.dk website
+screenshot  = images/screenshot.png
+core        = 6.x
+engine      = phptemplate
+base theme  = acquia_commons
+
+stylesheets[all][] = styles/ting.css
