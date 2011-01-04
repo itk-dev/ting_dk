@@ -14,3 +14,7 @@
 .primary-menu-inner ul.sf-menu li.sfHover > a {
   background-color: #9fb400;
 }
+
+.search-box-inner input#search_header {
+  font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif;
+}
