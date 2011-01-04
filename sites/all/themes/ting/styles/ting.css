@@ -6,6 +6,10 @@ h1.title {
     color: #666;
 }
 
+h2 {
+  color: #666;
+}
+
 .page-inner {
   padding: 0;
 }
@@ -207,6 +211,10 @@ a:visited {
 form input.form-submit,
 .views-exposed-form .views-exposed-widget input.form-submit {
   background-color: #9fb400;
+}
+
+.page-home .shoutbox-add-form input.form-text {
+  width: 70%;
 }
 
 /*
