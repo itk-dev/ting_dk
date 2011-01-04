@@ -209,6 +209,29 @@ form input.form-submit,
   background-color: #9fb400;
 }
 
+/*
+  Shoutbox
+*/
+
 #shoutbox-add-form .form-text, #shoutbox-add-form .form-submit {
   font-size: 95%;
+}
+
+span.shoutbox-current-user-name,
+span.shoutbox-current-user-name a,
+span.shoutbox-current-user-name a:visited {
+  color: #97a700;
+}
+
+/*
+  Footer
+*/
+
+.footer-wrapper {
+  background-color: #f2f2f2;
+  padding: 0;
+}
+
+.footer-message-wrapper {
+  display: none;
 }
