@@ -175,5 +175,40 @@ h1.title {
 a,
 a:link,
 a:visited {
-  color: #414600;
+  color: #97a700;
+}
+
+.panel-pane .view-og-calendar .view-header .addnew a,
+.panel-pane .view-recent-notices .view-header .addnew a,
+.panel-pane .view-header .addnew a {
+  color: #97a700;
+}
+
+/*
+  Blocks
+*/
+
+.panel-panel .block .inner h2.pane-title,
+.panel-pane .inner h2.pane-title,
+.panel-panel .block .inner h2.block-title,
+.panel-pane .inner h2.block-title,
+.panel-panel .pane-node-content .node {
+  border-top: 0;
+}
+
+.panel-panel .block, .panel-pane {
+  border-bottom: 2px solid #ddd;
+}
+
+/*
+  Form elements
+*/
+
+form input.form-submit,
+.views-exposed-form .views-exposed-widget input.form-submit {
+  background-color: #9fb400;
+}
+
+#shoutbox-add-form .form-text, #shoutbox-add-form .form-submit {
+  font-size: 95%;
 }
