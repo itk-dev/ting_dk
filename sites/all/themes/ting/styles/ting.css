@@ -93,14 +93,6 @@ h1.title {
   background-color: #677500;
 }
 
-.primary-menu-inner ul.sf-menu li.active-trail:first-child {
-  background-color: #fff;
-}
-
-.primary-menu-inner ul.sf-menu li.active-trail:first-child a {
-  color: #717d00;
-}
-
 .primary-menu-inner ul.sf-menu a,
 .primary-menu-inner ul.sf-menu a:visited {
   background-color: transparent;
@@ -114,6 +106,14 @@ h1.title {
 .primary-menu-inner ul.sf-menu li.sfHover > a {
   background-color: transparent;
   color: #fff;
+}
+
+.primary-menu-inner ul.sf-menu li.active-trail {
+  background-color: #fff;
+}
+
+.primary-menu-inner ul.sf-menu li.active-trail a {
+  color: #717d00;
 }
 
 /*
