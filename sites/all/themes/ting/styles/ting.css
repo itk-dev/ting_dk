@@ -89,6 +89,23 @@ h2 {
   float: right;
 }
 
+#user-login-form div.item-list ul li {
+  margin: 0 0 5px;
+}
+
+.header-region-inner .block-user .item-list ul li a {
+  font-size: 11px;
+  text-decoration: underline;
+}
+
+.header-region-inner .block-user .item-list ul li a:hover {
+  text-decoration: none;
+}
+
+.header-region-inner .block-user .form-required {
+  padding: 0;
+}
+
 /*
   Primary menu
 */
