@@ -79,6 +79,7 @@ h2 {
 
 .header-region-inner .block-user form {
   min-width: 205px;
+  *width: 205px; /* IE 7 fix */
 }
 
 .header-region-inner .block-user .form-item,
