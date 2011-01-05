@@ -342,3 +342,20 @@ div.shoutbox-even {
 .get-startet-download-box .download a {
   background: url('../images/get-startet-download.png') no-repeat bottom center;
 }
+
+/*
+  Twitter
+*/
+
+.twtr-widget {
+  margin: 0 0 30px !important;
+}
+
+.twtr-widget .twtr-hd,
+.twtr-widget .twtr-ft {
+  display: none !important;
+}
+
+.twtr-widget .twtr-tweet-wrap {
+  padding: 6px 0 !important;
+}
