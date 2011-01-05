@@ -267,7 +267,8 @@ form input.form-submit,
   Shoutbox
 */
 
-#shoutbox-add-form .form-text, #shoutbox-add-form .form-submit {
+#shoutbox-add-form .form-text,
+#shoutbox-add-form .form-submit {
   font-size: 95%;
 }
 
@@ -275,6 +276,21 @@ span.shoutbox-current-user-name,
 span.shoutbox-current-user-name a,
 span.shoutbox-current-user-name a:visited {
   color: #97a700;
+}
+
+.shoutbox-msg .shoutbox-post-info {
+  padding-right: 20px;
+  text-align: left;
+}
+
+.shoutbox-msg .shoutbox-post-info,
+.shoutbox-msg .shoutbox-post-info span {
+  width: 40px;
+}
+
+.shoutbox-msg .shout-message,
+div.shoutbox-even {
+  margin-left: 58px;
 }
 
 /*
