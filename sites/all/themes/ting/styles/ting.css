@@ -4,10 +4,12 @@
 
 h1.title {
     color: #666;
+    font-size: 200%
 }
 
 h2 {
   color: #666;
+  font-weight: normal;
 }
 
 .page-inner {
