@@ -16,6 +16,10 @@ h2 {
   padding: 0;
 }
 
+.block .inner {
+  margin: 0;
+}
+
 .header-group-wrapper {
   background: #cfde28 url('../images/header-gradient-bg.gif') repeat-x top center; 
 }
@@ -248,6 +252,12 @@ a:visited {
 
 .panel-panel .block, .panel-pane {
   border-bottom: 2px solid #ddd;
+  margin-bottom: 5px;
+}
+
+.panels-flexible-region-1-left .panel-flexible .panel-separator,
+.panels-flexible-region-1-right .panel-flexible .panel-separator {
+  margin: 0;
 }
 
 /*
@@ -304,4 +314,30 @@ div.shoutbox-even {
 
 .footer-message-wrapper {
   display: none;
+}
+
+/*
+  Get startet / Download
+*/
+
+.get-startet-download-box {
+  color: #666;
+  font-size: 85%;
+  margin: 0 0 30px;
+  text-align: center;
+}
+
+.get-startet-download-box .get-startet a,
+.get-startet-download-box .download a {
+  background: url('../images/get-startet-download.png') no-repeat top center;
+  display: block;
+  height: 43px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-indent: -10000px;
+  width: 182px;
+}
+
+.get-startet-download-box .download a {
+  background: url('../images/get-startet-download.png') no-repeat bottom center;
 }
