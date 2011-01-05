@@ -63,6 +63,32 @@ h2 {
   line-height: 100%;
 }
 
+.not-logged-in .header-region {
+  margin: 40px 0 0;
+}
+
+.not-logged-in .header-region input.form-text {
+  width: 181px;
+}
+
+.header-region-inner .block-user form {
+  min-width: 205px;
+}
+
+.header-region-inner .block-user .form-item,
+.header-region-inner .block-user #user-login-form div.item-list {
+  float: none;
+}
+
+.header-region-inner .block-user .form-item label {
+  color: #fff;
+  margin: 5px 0 5px 1px;
+}
+
+.header-region-inner .block-user input.form-submit {
+  float: right;
+}
+
 /*
   Primary menu
 */
