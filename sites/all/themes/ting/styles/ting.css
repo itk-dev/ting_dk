@@ -1,5 +1,6 @@
 body {
-    font-family: Arial,Helvetica,"Nimbus Sans L",FreeSans,sans-serif;
+  color: #666666;
+  font-family: Arial,Helvetica,"Nimbus Sans L",FreeSans,sans-serif;
 }
 
 /*
@@ -383,6 +384,10 @@ div.shoutbox-even {
   Social links block
 */
 
+.social-media-block {
+  height: 185px;
+}
+
 .social-media-block .facebook a{
   background: url('../images/facebookimage.png');
   display: block;
@@ -407,4 +412,25 @@ div.shoutbox-even {
   position: absolute;
   top: 60px;
   left:235px;
+}
+
+/*
+  Recent activities
+*/
+
+.heartbeat-message-block .beat-item {
+  font-size: 85%;
+  margin: 0 0 5px;
+  padding: 0 0 3px;
+}
+
+.heartbeat-message-block .beat-item .beat-item-info {
+  line-height: 160%;
+  padding: 0 5px 0 0;
+  width: auto;
+}
+
+.heartbeat-message-block .beat-item .beat-item-info a {
+  color: #999999;
+  font-size: 130%;
 }
