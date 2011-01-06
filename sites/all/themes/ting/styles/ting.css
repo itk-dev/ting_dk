@@ -25,17 +25,17 @@ h2 {
 }
 
 .header-group-wrapper .header-group-inner {
-  background: url('../images/header-slogan.png') no-repeat 338px 63px;
-  min-height: 225px;
+  background: url('../images/header-slogan.png') no-repeat 338px 40px;
+  min-height: 185px;
   position: relative;
 }
 
 #logo {
-  margin: 84px 12px 0;
+  margin: 65px 12px 0;
 }
 
 .header-region {
-  margin: 68px 0 0;
+  margin: 60px 0 0;
   padding: 0;
 }
 
@@ -122,7 +122,7 @@ h2 {
   font-size: 90%;
   left: 0;
   position: absolute;
-  top: 193px;
+  top: 153px;
   width: 100%;
 }
 
