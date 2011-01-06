@@ -378,3 +378,33 @@ div.shoutbox-even {
 .twtr-widget .twtr-tweet-wrap {
   padding: 6px 0 !important;
 }
+
+/*
+  Social links block
+*/
+
+.social-media-block .facebook a{
+  background: url('../images/facebookimage.png');
+  display: block;
+  height: 56px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-indent: -10000px;
+  width: 150px;
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+
+.social-media-block .twitter a{
+  background: url('../images/twitterimage.png');
+  display: block;
+  height: 27px;
+  margin: 10px auto;
+  overflow: hidden;
+  text-indent: -10000px;
+  width: 160px;
+  position: absolute;
+  top: 60px;
+  left:235px;
+}
