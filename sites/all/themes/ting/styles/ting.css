@@ -21,7 +21,7 @@ h2 {
 }
 
 .header-group-wrapper {
-  background: #cfde28 url('../images/header-gradient-bg.gif') repeat-x top center; 
+  background: #d1e02b url('../images/header-gradient-bg.gif') repeat-x top center;
 }
 
 .header-group-wrapper .header-group-inner {
@@ -70,7 +70,11 @@ h2 {
 }
 
 .not-logged-in .header-region {
-  margin: 25px 0 0;
+  margin: 3px 0 0;
+}
+
+.not-logged-in .header-region .block {
+  margin: 0;
 }
 
 .not-logged-in .header-region input.form-text {
