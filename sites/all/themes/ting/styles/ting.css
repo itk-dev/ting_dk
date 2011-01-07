@@ -255,7 +255,10 @@ a:visited {
 
 .panel-pane .view-og-calendar .view-header .addnew a,
 .panel-pane .view-recent-notices .view-header .addnew a,
-.panel-pane .view-header .addnew a {
+.panel-pane .view-header .addnew a,
+.node .inner ul li > a,
+.panel-pane .inner ul li > a,
+.block .content ul li > a {
   color: #97a700;
 }
 
@@ -433,4 +436,11 @@ div.shoutbox-even {
 .heartbeat-message-block .beat-item .beat-item-info a {
   color: #999999;
   font-size: 130%;
+}
+
+/*
+    Footer
+*/
+.footer h2{
+font-weight: bold;
 }
