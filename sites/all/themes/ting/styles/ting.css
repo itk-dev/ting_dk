@@ -306,6 +306,10 @@ form input.form-submit,
   font-size: 95%;
 }
 
+.panels-flexible-region-1-right #content-region input.form-text {
+  max-width: 68%;
+}
+
 span.shoutbox-current-user-name,
 span.shoutbox-current-user-name a,
 span.shoutbox-current-user-name a:visited {
@@ -340,6 +344,9 @@ div.shoutbox-even {
   display: none;
 }
 
+.footer h2 {
+  font-weight: bold;
+}
 /*
   Get startet / Download
 */
@@ -439,8 +446,46 @@ div.shoutbox-even {
 }
 
 /*
-    Footer
+  Latest featured content
 */
-.footer h2{
-font-weight: bold;
+
+.view-recent-featured-stream .item-list ul {
+  margin: 0;
+}
+
+.view .view-content .item-list li.views-row {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 0 0 10px 22px;
+}
+
+.view .view-content .item-list li.views-row.views-row-last {
+  border-bottom: 0;
+  margin: 0;
+}
+
+.view .view-content .item-list li.views-row .views-field-last-updated,
+.view .view-content .item-list li.views-row .views-field-teaser {
+  float: left;
+  width: 48%;
+}
+
+.view .view-content .item-list li.views-row .views-field-last-updated {
+  padding: 0 10px 0 0;
+}
+
+.view .view-content .item-list li.views-row .views-field-teaser p {
+  margin: 0 0 5px;
+}
+
+/*
+  Add margin to center column
+*/
+
+.panels-flexible-region-1-center {
+  margin: 0 10px;
+}
+
+.panels-flexible-region-1-left,
+.panels-flexible-region-1-right {
+  width: 24%;
 }
