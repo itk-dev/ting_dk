@@ -349,21 +349,47 @@ div.shoutbox-even {
   font-weight: bold;
 }
 
+/*
+  SMS Block
+*/
+
 .footer-wrapper .form-item{
   margin-bottom: 0px;
   margin-top: 4px;
   float:left;
   padding-right:15px;
 }
+
 .footer-wrapper .form-item label{
   float: left;
   padding-right: 3px;
-
 }
 
 .footer-wrapper .form-submit{
   font-size: 95%;
 }
+.sms-block-bottom{
+  font-size: 85%;
+}
+
+
+/*
+  Footer block positioning
+*/
+
+.block-simplenews, #block-block-4{
+  position: absolute;
+  margin-left: 706px;
+}
+
+#block-block-4{
+  margin-top: 100px;
+}
+
+.footer-wrapper .block{
+  width: 210px;
+}
+
 
 /*
   Get startet / Download
