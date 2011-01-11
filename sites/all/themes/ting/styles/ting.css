@@ -340,6 +340,9 @@ div.shoutbox-even {
   padding: 0;
   color:#666666;
 }
+.footer-wrapper .block{
+  width: 210px;
+}
 
 .footer-message-wrapper {
   display: none;
@@ -371,25 +374,6 @@ div.shoutbox-even {
 .sms-block-bottom{
   font-size: 85%;
 }
-
-
-/*
-  Footer block positioning
-*/
-
-.block-simplenews, #block-block-4{
-  position: absolute;
-  margin-left: 706px;
-}
-
-#block-block-4{
-  margin-top: 100px;
-}
-
-.footer-wrapper .block{
-  width: 210px;
-}
-
 
 /*
   Get startet / Download
