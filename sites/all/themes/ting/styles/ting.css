@@ -3,6 +3,7 @@ body {
   font-family: Arial,Helvetica,"Nimbus Sans L",FreeSans,sans-serif;
 }
 
+
 /*
   Elements
 */
@@ -294,7 +295,7 @@ form input.form-submit,
 }
 
 .page-home .shoutbox-add-form input.form-text {
-  width: 70%;
+  width: 69%;
 }
 
 /*
@@ -352,6 +353,13 @@ div.shoutbox-even {
   font-weight: bold;
 }
 
+.footer-group .footer-left.nested{
+  width:75%;
+}
+
+.footer-group .footer-right.nested{
+  width:25%;
+}
 /*
   SMS Block
 */

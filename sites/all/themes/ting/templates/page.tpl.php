@@ -146,25 +146,27 @@
       </div><!-- /main-wrapper -->
       <!-- postscript-bottom row: width = grid_width -->
       <?php print theme('grid_row', $postscript_bottom, 'postscript-bottom', 'full-width', $grid_width); ?>
+
       <!-- footer row: width = grid_width -->
+      <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
+
       <div id="footer-wrapper" class="footer-wrapper full-width">
-       <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
-       <div id="footer-group" class="footer-group row <?php print $grid_width; ?>">
-         <div id="footer-group-inner" class="footer-group-inner inner clearfix">
+        <div id="footer-group" class="footer-group row <?php print $grid_width; ?>">
+          <div id="footer-group-inner" class="footer-group-inner inner clearfix">
             <?php print theme('grid_row', $footer_left, 'footer-left', 'nested', 'grid16-12'); ?>
             <?php print theme('grid_row', $footer_right, 'footer-right', 'nested', 'grid16-4'); ?>
-         </div><!-- /footer-group-inner -->
-      </div><!-- /footer-group -->
+          </div><!-- /footer-group-inner -->
+        </div><!-- /footer-group -->
+      </div><!-- /footer-wrapper -->
+
       <!-- footer-message row: width = grid_width -->
       <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
         <div id="footer-message" class="footer-message row <?php print $grid_width; ?>">
           <div id="footer-message-inner" class="footer-message-inner inner clearfix">
             <?php print theme('grid_block', $footer_message, 'footer-message-text'); ?>
-
           </div><!-- /footer-message-inner -->
         </div><!-- /footer-message -->
-       </div><!-- /footer-message-wrapper -->
-      </div><!-- /footer-wrapper -->
+      </div><!-- /footer-message-wrapper -->
     </div><!-- /page-inner -->
   </div><!-- /page -->
   <?php print $closure; ?>

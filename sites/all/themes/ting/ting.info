@@ -23,3 +23,13 @@ regions[footer_left] = footer left
 regions[footer_right] = footer right
 regions[node_top] = node top
 regions[node_bottom] = node bottom
+
+; Default theme settings
+settings[theme_grid] = grid16-fluid
+settings[theme_grid_options][] = grid16-960
+settings[theme_grid_options][] = grid16-fluid
+settings[fluid_grid_width] = fluid-95
+settings[theme_font_size] = font-size-12
+settings[sidebar_layout] = sidebars-split
+settings[sidebar_first_width] = 3
+settings[sidebar_last_width] = 3
