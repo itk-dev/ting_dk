@@ -577,4 +577,5 @@ div.shoutbox-even {
    background-color: #cddc29;
    border: 1px solid #9fb400;
    color: #414600;
+   max-width: 129px;
 }
