@@ -579,3 +579,11 @@ div.shoutbox-even {
    color: #414600;
    max-width: 129px;
 }
+
+/*
+  fb_social, like box
+*/
+
+.fb_iframe_widget{
+  height:100px;
+}
