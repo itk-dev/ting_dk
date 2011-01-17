@@ -58,16 +58,12 @@ function commons_build_menu_dropdowns($reset = TRUE) {
   foreach ($links as $link) {
     menu_link_save($link);
   } 
-  /*
-   * Core Hack, Martin Yde
-   * We don't want the my stuff menu in our primary menu. Since it's rebuilt when cache is cleared we remove below altogether.
-   * Uncomment lines 66-69 and 70-81 to reactivate the menu.
-   */
-  /*// Create "My stuff" drop down first, so we can fetch the mlid
+  
+  // Create "My stuff" drop down first, so we can fetch the mlid
   $parent = array('menu_name' => 'primary-links', 'weight' => 5, 'link_path' => 'user', 'link_title' => t(COMMONS_USER_MENU_DROPDOWN), 'module' => 'commons', 'expanded' => 1);
   menu_link_save($parent);
-  */
-  /*// Childs of "My stuff" menu
+  
+  // Childs of "My stuff" menu
   $links = array();
   $links[] = array('menu_name' => 'primary-links', 'weight' => 0, 'link_path' => 'user', 'link_title' => t('My profile'), 'module' => 'commons', 'plid' => $parent['mlid']);
   $links[] = array('menu_name' => 'primary-links', 'weight' => 2, 'link_path' => 'og/my', 'link_title' => t('My groups'), 'module' => 'commons', 'plid' => $parent['mlid']);
@@ -78,7 +74,7 @@ function commons_build_menu_dropdowns($reset = TRUE) {
   
   foreach ($links as $link) {
     menu_link_save($link);
-  }*/
+  }
 }
 
 /**
