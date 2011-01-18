@@ -58,8 +58,14 @@ function commons_build_menu_dropdowns($reset = TRUE) {
   foreach ($links as $link) {
     menu_link_save($link);
   } 
-  
+
+
+  /* Core hack
+      /Martin Yde
+      To prevent My Stuff menu from resetting at every CC we remove the menu altorgether.
+
   // Create "My stuff" drop down first, so we can fetch the mlid
+
   $parent = array('menu_name' => 'primary-links', 'weight' => 5, 'link_path' => 'user', 'link_title' => t(COMMONS_USER_MENU_DROPDOWN), 'module' => 'commons', 'expanded' => 1);
   menu_link_save($parent);
   
@@ -75,6 +81,8 @@ function commons_build_menu_dropdowns($reset = TRUE) {
   foreach ($links as $link) {
     menu_link_save($link);
   }
+
+   */
 }
 
 /**
