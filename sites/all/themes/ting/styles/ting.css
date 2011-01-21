@@ -3,6 +3,7 @@ body {
   font-family: Arial,Helvetica,"Nimbus Sans L",FreeSans,sans-serif;
 }
 
+
 /*
   Elements
 */
@@ -131,6 +132,16 @@ html.js #user-login-form li.openid-link {
   margin: 14px 0 0;
 }
 
+.header-region-inner .picture{
+  min-height: 40px;
+}
+
+.header-region-inner span.username{
+  padding-top: 3px;
+}
+.header-region-inner .view-user-meta{
+  width:190px;
+}
 /*
   Primary menu
 */
@@ -253,17 +264,19 @@ html.js #user-login-form li.openid-link {
 .search-box-inner input#search_header {
   font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif;
 }
-
+.primary-menu-inner ul.sf-menu li ul{
+  margin-top: -1px;
+}
 /*
   Fonts, colors etc.
 */
 
 a,
 a:link,
-a:visited {
+a:visited,
+.node .inner .links ul li a {
   color: #97a700;
 }
-
 /*
   Blocks
 */
@@ -296,7 +309,7 @@ form input.form-submit,
 }
 
 .page-home .shoutbox-add-form input.form-text {
-  width: 70%;
+  width: 69%;
 }
 
 /*
@@ -312,6 +325,9 @@ form input.form-submit,
   max-width: 68%;
 }
 
+span.shoutbox-user-name,
+span.shoutbox-user-name a,
+span.shoutbox-user-name a:visited,
 span.shoutbox-current-user-name,
 span.shoutbox-current-user-name a,
 span.shoutbox-current-user-name a:visited {
@@ -337,6 +353,10 @@ div.shoutbox-even {
   Footer
 */
 
+.footer-wrapper .inner ul li a{
+  color:#97A700;
+}
+
 .footer-wrapper {
   background-color: #f2f2f2;
   padding: 0;
@@ -354,6 +374,13 @@ div.shoutbox-even {
   font-weight: bold;
 }
 
+.footer-group .footer-left.nested{
+  width:75%;
+}
+
+.footer-group .footer-right.nested{
+  width:25%;
+}
 /*
   SMS Block
 */
@@ -519,4 +546,44 @@ div.shoutbox-even {
 .panels-flexible-region-1-left,
 .panels-flexible-region-1-right {
   width: 24%;
+}
+
+/*
+  Calendar block
+*/
+
+.panel-pane .view-display-id-calendar_block_1 .view-header .addnew{
+  width: 95px;
+}
+
+.panel-pane .view-display-id-calendar_block_1 .view-header .addnew a{
+  color: #97A700;
+}
+
+/*
+  Calendar node
+*/
+
+.block .content-content .view-og-calendar .month-view td.future.has-events .view-item .view-data-node-title a,
+.block .content-content .view-content-global-calendar .month-view td.future.has-events .view-item .view-data-node-title a{
+  color: #97A700;
+}
+
+/*
+  Profile page
+*/
+
+.profile .userpoints{
+   background-color: #cddc29;
+   border: 1px solid #9fb400;
+   color: #414600;
+   max-width: 129px;
+}
+
+/*
+  fb_social, like box
+*/
+
+.fb_iframe_widget{
+  height:100px;
 }
