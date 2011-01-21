@@ -408,16 +408,16 @@ div.shoutbox-even {
   Get startet / Download
 */
 
-.get-startet-download-box {
+.get-started-download-box {
   color: #666;
   font-size: 85%;
   margin: 0 0 30px;
   text-align: center;
 }
 
-.get-startet-download-box .get-startet a,
-.get-startet-download-box .download a {
-  background: url('../images/get-startet-download.png') no-repeat top center;
+.get-started-download-box .get-started a,
+.get-started-download-box .download a {
+  background: url('../images/get-started-download.png') no-repeat top center;
   display: block;
   height: 43px;
   margin: 10px auto;
@@ -426,8 +426,8 @@ div.shoutbox-even {
   width: 182px;
 }
 
-.get-startet-download-box .download a {
-  background: url('../images/get-startet-download.png') no-repeat bottom center;
+.get-started-download-box .download a {
+  background: url('../images/get-started-download.png') no-repeat bottom center;
 }
 
 /*
