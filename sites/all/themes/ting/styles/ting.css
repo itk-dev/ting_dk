@@ -585,5 +585,9 @@ div.shoutbox-even {
 */
 
 .fb_iframe_widget{
-  height:100px;
+  height: 100px;
+}
+
+.fb_social_like .fb-social-like-widget{
+  margin: 10px;
 }
