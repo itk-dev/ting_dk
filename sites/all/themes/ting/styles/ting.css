@@ -591,3 +591,39 @@ div.shoutbox-even {
 .fb_social_like .fb-social-like-widget{
   margin: 10px;
 }
+
+/*
+  Intro blocks for Annonymous users
+*/
+.infoblok{
+  border-bottom: 0px;
+  min-height: 260px;
+  background: #D1E02B;
+  padding: 10px;
+  margin-bottom: 0px;
+}
+
+.infoblok .inner h2.block-title{
+  padding-top: 6px;
+  margin-bottom: 0;
+}
+
+.infoblok a{
+  color: #565656;
+  text-decoration: underline;
+}
+
+/*.panels-flexible-row-first{
+  border-color: #666666;
+  border-style: dotted;
+  border-width: 1px 0;
+  padding: 0px;
+}*/
+
+.panels-flexible-row-first .panels-flexible-region-inside{
+  padding: 0px;
+}
+
+.panels-flexible-row-first .panels-flexible-region{
+  width: 33.33%;
+}
