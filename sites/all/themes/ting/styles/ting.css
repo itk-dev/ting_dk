@@ -631,3 +631,13 @@ div.shoutbox-even {
 .panels-flexible-row-first .panels-flexible-region{
   width: 33.33%;
 }
+
+/*My T!NG page*/
+
+/*
+  Content list
+*/
+
+.view-recent-content-all table tr td.views-field-name{
+  white-space: normal;
+}
