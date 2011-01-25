@@ -595,7 +595,7 @@ div.shoutbox-even {
 /*
   Intro blocks for Annonymous users
 */
-.infoblok{
+.infoblock{
   border-bottom: 0px;
   height: 175px;
   background: #D1E02B;
@@ -604,7 +604,7 @@ div.shoutbox-even {
   *height: 185px; /* IE 7 fix */
 }
 
-.infoblok .inner h2.block-title{
+.infoblock .inner h2.block-title{
   padding-top: 6px;
   margin-bottom: 0;
   color: #333;
@@ -612,7 +612,7 @@ div.shoutbox-even {
   font-weight: bold;
 }
 
-.infoblok a{
+.infoblock a{
   color: #565656;
   text-decoration: underline;
 }
