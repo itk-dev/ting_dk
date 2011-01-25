@@ -597,15 +597,19 @@ div.shoutbox-even {
 */
 .infoblok{
   border-bottom: 0px;
-  min-height: 260px;
+  height: 175px;
   background: #D1E02B;
   padding: 10px;
   margin-bottom: 0px;
+  *height: 185px; /* IE 7 fix */
 }
 
 .infoblok .inner h2.block-title{
   padding-top: 6px;
   margin-bottom: 0;
+  color: #333;
+  font-size: 150%;
+  font-weight: bold;
 }
 
 .infoblok a{
