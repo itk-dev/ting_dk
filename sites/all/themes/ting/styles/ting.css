@@ -642,6 +642,10 @@ div.shoutbox-even {
   white-space: normal;
 }
 
+/*
+  Group mission statement
+*/
+
 .panel-pane .node-type-group .og-mission{
   float: left;
   width: 80%;
@@ -658,4 +662,34 @@ div.shoutbox-even {
 
 .panel-pane .node-type-group .group-attributes .field-field-group-image img.imagecache-group_images {
   width: 300%;
+}
+
+/*
+  Tags
+*/
+.terms{
+  display: block;
+}
+
+.terms ul.links li,
+.terms ul.links li.first,
+.terms ul.links li.last{
+    -moz-border-radius: 4px;
+    border: 1px solid grey;
+    cursor: pointer;
+    float: left;
+    margin: 5px;
+    padding: 2px 4px;
+    float: left;
+}
+
+.terms ul.links li a{
+  text-decoration: none;
+  color: #97A700;
+}
+
+.main .node .links,
+.main .node .submitted,
+.main .node .content{
+      clear: both;
 }
