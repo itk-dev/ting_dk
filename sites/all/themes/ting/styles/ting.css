@@ -693,3 +693,11 @@ div.shoutbox-even {
 .main .node .content{
       clear: both;
 }
+
+/*
+  Partnerpagemenu
+*/
+
+#block-menu-menu-partnerpagemenu{
+  color: #97A700;
+}
