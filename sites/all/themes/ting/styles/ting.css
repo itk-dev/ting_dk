@@ -641,3 +641,21 @@ div.shoutbox-even {
 .view-recent-content-all table tr td.views-field-name{
   white-space: normal;
 }
+
+.panel-pane .node-type-group .og-mission{
+  float: left;
+  width: 80%;
+}
+
+.panel-pane .node-type-group .group-attributes{
+  float: right;
+  width: 14%;
+}
+
+.panel-pane .node-type-group .group-promote-content{
+  clear: both;
+}
+
+.panel-pane .node-type-group .group-attributes .field-field-group-image img.imagecache-group_images {
+  width: 300%;
+}
