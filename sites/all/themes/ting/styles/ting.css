@@ -698,6 +698,6 @@ div.shoutbox-even {
   Partnerpagemenu
 */
 
-#block-menu-menu-partnerpagemenu{
+#block-menu-menu-partnerpagemenu ul li a{
   color: #97A700;
 }
