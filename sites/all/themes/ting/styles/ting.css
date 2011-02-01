@@ -671,7 +671,7 @@ div.shoutbox-even {
   display: block;
 }
 
-.terms ul.links li,
+.inner .terms ul.links li,
 .terms ul.links li.first,
 .terms ul.links li.last{
     -moz-border-radius: 4px;
