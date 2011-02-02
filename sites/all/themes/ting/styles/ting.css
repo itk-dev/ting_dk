@@ -705,6 +705,6 @@ div.shoutbox-even {
 /*
   Exposed filters
 */
-.views-exposed-widget{
+.view-recent-content-all .views-exposed-widget{
   width: 29%;
 }
