@@ -701,3 +701,10 @@ div.shoutbox-even {
 #block-menu-menu-partnerpagemenu ul li a{
   color: #97A700;
 }
+
+/*
+  Exposed filters
+*/
+.views-exposed-widget{
+  width: 29%;
+}
