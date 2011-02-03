@@ -361,7 +361,9 @@ div.shoutbox-even {
   background-color: #f2f2f2;
   padding: 0;
   color:#666666;
+  margin-top: 15px;
 }
+
 .footer-wrapper .block{
   width: 210px;
 }
