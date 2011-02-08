@@ -18,6 +18,10 @@ h2 {
   font-weight: normal;
 }
 
+h4 {
+  color: #666;
+}
+
 .page-inner {
   padding: 0;
 }
@@ -599,7 +603,6 @@ div.shoutbox-even {
 */
 .infoblock{
   border-bottom: 0px;
-  height: 175px;
   background: #D1E02B;
   padding: 10px;
   margin-bottom: 0px;
@@ -710,3 +713,4 @@ div.shoutbox-even {
 .view-recent-content-all .views-exposed-widget{
   width: 29%;
 }
+
