@@ -1,0 +1,84 @@
+<?php
+// $Id: system_perm.module,v 1.1 2010/10/22 23:53:36 matt2000 Exp $
+
+/**
+ * @file
+ * This module subdivides several core permissions
+ *
+ * @author Matt Chapman
+ * @copyright (c)2009 Ninjitsu Web Development, LLC
+ */
+ 
+/**
+ * Implementation of hook_perm
+ */
+function system_perm_perm() {
+  $perms =  array('administer themes',
+                  'administer role permissions',
+                  'administer roles',
+                  'administer site information',   
+                  'administer modules',
+                  'access admin by module',
+                  'access settings pages',
+                  'administer access rules',
+                  'administer node settings',
+            );
+
+  foreach (list_themes() as $theme) {
+    $perms[] = "configure {$theme->name} theme";
+  }
+
+  return $perms;
+}
+
+/**
+ * Implementation of hook_menu_alter
+ *
+ * Add specific pages and the appropriate permissions to restrict access
+ */
+function system_perm_menu_alter(&$items) {
+  //permissions page - Allows to grant 'administer permissions' for assigning roles, but not change the permissions of roles
+  $items['admin/user/permissions']['access arguments'] = array('administer role permissions');
+
+  //roles
+  $items['admin/user/roles']['access arguments'] = array('administer roles');
+  $items['admin/user/roles/edit']['access arguments'] = array('administer roles');
+  
+  //site-information page
+  $items['admin/settings/site-information']['access arguments'] = array('administer site information');
+
+  //modules
+  $items['admin/build/modules']['access arguments'] = array('administer modules');
+  $items['admin/build/modules/uninstall']['access arguments'] = array('administer modules');
+  $items['admin/build/modules/uninstall/confirm']['access arguments'] = array('administer modules');
+
+  //Admin by-module
+  $items['admin/by-module']['access arguments'] = array('access admin by module');
+  
+  //Settings Pages
+  $items['admin/settings']['access arguments'] = array('access settings pages');
+
+  // Allow to configure a specific theme but not administer themes
+  $items['admin/build/themes']['access arguments'] = array('administer themes');
+  $items['admin/build/themes/settings']['access arguments'] = array('administer themes');
+  
+  //Access Rules
+  $items['admin/user/rules']['access arguments'] = array('administer access rules');
+  $items['admin/user/rules/list']['access arguments'] = array('administer access rules');
+  $items['admin/user/rules/add']['access arguments'] = array('administer access rules');
+  $items['admin/user/rules/check']['access arguments'] = array('administer access rules');
+  $items['admin/user/rules/edit']['access arguments'] = array('administer access rules');
+  $items['admin/user/rules/delete']['access arguments'] = array('administer access rules');
+  
+  //Node Settings aka Post Settings
+  $items['admin/content/node-settings']['access arguments'] = array('administer node settings');
+  $items['admin/content/node-settings/rebuild']['access arguments'] = array('administer node settings');
+  
+
+  foreach (list_themes() as $theme) {
+    $items["admin/build/themes/settings/{$theme->name}"]['access callback'] = 'user_access';
+    $items["admin/build/themes/settings/{$theme->name}"]['access arguments'] = array("configure {$theme->name} theme");
+    $items["admin/build/themes/settings/{$theme->name}"]['type'] = MENU_NORMAL_ITEM;
+    $items["admin/build/themes/settings/{$theme->name}"]['title'] = 'Configure ' .$theme->info['name'];
+  }
+}

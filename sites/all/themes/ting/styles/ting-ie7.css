@@ -1,0 +1,31 @@
+/*
+  IE fixes
+*/
+
+/*
+  Header
+*/
+
+.header-group .header-group-inner {
+  z-index: 99; /* IE 7 fix */
+}
+
+.header-region-inner .block-user form {
+  width: 205px; /* IE 7 fix */
+}
+
+/*
+  Primary menu
+*/
+
+#primary-menu ul.sf-menu {
+  width: 700px; /* IE 7 fix */
+}
+
+.primary-menu-inner ul.sf-menu li li {
+  width: 160px; /* IE 7 fix */
+}
+
+.infoblock{
+  height: 185px; /* IE 7 fix */
+}

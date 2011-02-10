@@ -35,7 +35,7 @@ width: auto;
 }
 
 .nav-group-wrapper {
-max-height: 36px; 
+max-height: 36px;
 }
 
 .primary-menu.block,
@@ -45,7 +45,7 @@ width: 60%;
 }
 
 #header-site-info,
-.header-region.block, {
+.header-region.block {
 width: 49%;
 overflow: hidden;
 }

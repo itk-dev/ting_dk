@@ -95,7 +95,6 @@ h4 strong{
 
 .header-region-inner .block-user form {
   min-width: 205px;
-  *width: 205px; /* IE 7 fix */
 }
 
 .header-region-inner .block-user .form-item,
@@ -160,14 +159,6 @@ html.js #user-login-form li.openid-link {
   width: 100%;
 }
 
-#primary-menu ul.sf-menu {
-  *width: 700px; /* IE 7 fix */
-}
-
-.header-group .header-group-inner {
-  *z-index: 99; /* IE 7 fix */
-}
-
 .nav-group-wrapper {
   background-color: transparent;
 }
@@ -188,7 +179,6 @@ html.js #user-login-form li.openid-link {
   border-radius: 0;
   margin: 0;
   text-align: left;
-  *width: 160px; /* IE 7 fix */
 }
 
 .primary-menu-inner ul.sf-menu li:hover {
@@ -608,7 +598,6 @@ div.shoutbox-even {
   background: #D1E02B;
   padding: 10px;
   margin-bottom: 0px;
-  *height: 185px; /* IE 7 fix */
 }
 
 .infoblock .inner h2.block-title{
