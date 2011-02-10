@@ -593,14 +593,14 @@ div.shoutbox-even {
 /*
   Intro blocks for Annonymous users
 */
-#infoblock{
+.infoblock{
   border-bottom: 0px;
   background: #D1E02B;
   padding: 10px;
   margin-bottom: 0px;
 }
 
-#infoblock .inner h2.block-title{
+.infoblock .inner h2.block-title{
   padding-top: 6px;
   margin-bottom: 0;
   color: #333;
@@ -608,7 +608,7 @@ div.shoutbox-even {
   font-weight: bold;
 }
 
-#infoblock a{
+.infoblock a{
   color: #565656;
   text-decoration: underline;
 }
