@@ -449,6 +449,56 @@ div.shoutbox-even {
   Social links block
 */
 
+.social-links{
+  height: 100px;
+  position: relative;
+  margin-left:auto;
+  margin-right: auto;
+  width: 345px;
+}
+
+.social-links span span{
+  padding: 24px 10px 0;
+  float: left;
+}
+
+.social-links span a{
+  padding: 0 0 42px;
+  display: block;
+  width: 47px;
+  text-indent: -9999px;
+  outline: none;
+}
+.social-links span.bottom{
+   background: url("../images/social-icons-sprites.png") no-repeat scroll -25px 0px #fff;
+   width: 466px;
+   height: 30px;
+   position: absolute;
+   left: -52px;
+   top: 57px;
+   text-indent: -9999px;
+}
+
+.social-links .delicious a{
+  background: url("../images/social-icons-sprites.png") no-repeat scroll -115px -42px transparent;
+}
+
+.social-links .rss a{
+  background: url("../images/social-icons-sprites.png") no-repeat scroll -162px -42px transparent;
+}
+
+.social-links .twitter a{
+  background: url("../images/social-icons-sprites.png") no-repeat scroll -209px -42px transparent;
+}
+
+.social-links .facebook a{
+  background: url("../images/social-icons-sprites.png") no-repeat scroll -256px -42px transparent;
+}
+
+.social-links .stumbleupon a{
+  background: url("../images/social-icons-sprites.png") no-repeat scroll -303px -42px transparent;
+}
+
 .social-media-block {
   height: 185px;
 }

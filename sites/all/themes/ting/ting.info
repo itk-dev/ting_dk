@@ -10,6 +10,8 @@ stylesheets[all][] = styles/ting.css
 ;IE specific stylesheets
 ie stylesheets[if IE 7][all][] = styles/ting-ie7.css
 
+;Scripts
+scripts[] = scripts/sociallinks.js
 
 regions[sidebar_first] = sidebar first
 regions[sidebar_last] = sidebar last
