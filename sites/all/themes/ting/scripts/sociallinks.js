@@ -5,7 +5,7 @@
 <!--
 $(document).ready(function() {
 // list animation
-var fadeDuration =300; //time in milliseconds
+var fadeDuration =200; //time in milliseconds
 $('.delicious').hoverIntent(function() {
 $(this).animate({ paddingTop: '0px' }, fadeDuration);
 //$(this).children('span').show().animate({ top: -0 }, fadeDuration);
