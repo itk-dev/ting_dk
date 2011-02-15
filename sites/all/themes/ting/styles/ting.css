@@ -264,9 +264,11 @@ html.js #user-login-form li.openid-link {
 .search-box-inner input#search_header {
   font-family: Arial,Helvetica,Verdana,"Bitstream Vera Sans",sans-serif;
 }
+
 .primary-menu-inner ul.sf-menu li ul{
   margin-top: -1px;
 }
+
 /*
   Fonts, colors etc.
 */
@@ -309,7 +311,7 @@ form input.form-submit,
 }
 
 .page-home .shoutbox-add-form input.form-text {
-  width: 69%;
+  width: 67%;
 }
 
 /*
