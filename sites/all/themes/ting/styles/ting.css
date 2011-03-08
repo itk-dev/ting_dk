@@ -51,7 +51,8 @@ h4 strong{
   padding: 0;
 }
 
-.pane-block{
+.pane-block,
+.pane-views {
   padding: 10px;
 }
 
@@ -570,6 +571,10 @@ div.shoutbox-even {
   padding: 0 0 10px 22px;
 }
 
+.node .content ul li {
+  padding: 0 0 0 22px !important;
+}
+
 .view .view-content .item-list li.views-row.views-row-last {
   border-bottom: 0;
   margin: 0;
@@ -766,3 +771,15 @@ div.shoutbox-even {
   width: 29%;
 }
 
+
+/*
+  Search blok
+*/
+
+#content-region #edit-search-block-form-1 {
+    max-width: 58%;
+}
+
+#block-og-0 .content li.last a{
+  color: #97A700;
+}
