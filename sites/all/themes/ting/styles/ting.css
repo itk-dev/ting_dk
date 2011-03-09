@@ -802,3 +802,7 @@ div.tweets-pulled-listing a {
 #block-og-0 .content li.last a{
   color: #97A700;
 }
+
+.pane-search-0 .container-inline label {
+  display: none;
+}
