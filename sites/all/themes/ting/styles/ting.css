@@ -453,6 +453,25 @@ div.shoutbox-even {
 }
 
 /*
+  Twitter pull module
+*/
+
+.panel-pane .inner .tweets-pulled-listing ul li{
+  background: none;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+
+div.tweets-pulled-listing div.tweet-authorphoto img {
+  max-height: 34px;
+  max-width: 34px;
+}
+
+div.tweets-pulled-listing a {
+  color: #97a700;
+}
+
+/*
   Social links block
 */
 
