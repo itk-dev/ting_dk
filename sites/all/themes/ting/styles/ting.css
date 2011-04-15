@@ -811,7 +811,7 @@ div.tweets-pulled-listing a {
   Heartbeat /latest content
 */
 .view-heartbeat-activity .views-field-message p {
-  margin: 0;
+  margin: 0 0 10px;
 }
 
 .view-heartbeat-activity .views-field-timestamp span {
