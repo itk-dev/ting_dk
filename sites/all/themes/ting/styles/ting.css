@@ -814,6 +814,6 @@ div.tweets-pulled-listing a {
   margin: 0;
 }
 
-.view-heartbeat-activity views-field-timestamp span {
+.view-heartbeat-activity .views-field-timestamp span {
   font-size: 90%;
 }
