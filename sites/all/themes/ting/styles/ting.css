@@ -810,10 +810,113 @@ div.tweets-pulled-listing a {
 /*
   Heartbeat /latest content
 */
+
 .view-heartbeat-activity .views-field-message p {
   margin: 10px 0 0;
 }
 
 .view-heartbeat-activity .views-field-timestamp span {
   font-size: 90%;
+}
+
+/*
+  Slideshow block
+*/
+
+.slideshow .views-slideshow-controls-bottom a {
+  color: #000;
+  text-decoration: none;
+}
+
+.slideshow .activeSlide a {
+  text-decoration: underline;
+}
+
+#content-content .pane-slideshow .inner {
+  background: #efefef;
+  border: 1px solid #dedede;
+  margin-left: -1px;
+}
+
+#content-content .pane-slideshow .inner h2 {
+  margin: 0;
+  padding: 3px 8px;
+}
+
+.slideshow .views_slideshow_pause {
+  display: none;
+}
+
+.slideshow .views_slideshow_previous {
+  display: block;
+  float: none;
+  position: absolute;
+  left: 0;
+}
+
+
+.slideshow .views_slideshow_next {
+  display: block;
+  float: none;
+  position: absolute;
+  right: 0;
+}
+
+.slideshow .views-slideshow-controls-bottom {
+    display: block;
+    float: right;
+    padding: 10px 15px;
+    position: relative;
+    font-size: 80%;
+    right: 10px;
+    line-height: 1.2em;
+}
+
+.slideshow .views_slideshow_pagerNumbered {
+    float: right;
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 50;
+}
+
+.slideshow .pager-item {
+  padding: 0;
+}
+
+.slideshow .pager-item a {
+  display:block;
+  float:left;
+  padding: 0 1px;
+}
+
+.slideshow .views-field-body {
+  background: #fff;
+  height: 50px;
+  padding: 3px 5px;
+}
+
+.slideshow .views-field-body p {
+  margin: 0;
+}
+
+
+.slideshow .views-field-view-node {
+  padding: 6px;
+  font-size: 85%;
+  position: absolute;
+}
+
+.slideshow .views-field-field-slideimage-fid {
+  line-height: 0;
+}
+
+.node-type-slideshow-item #content-group .field-field-slideimage {
+  float: right;
+}
+
+.slideshow .views-field-title {
+  font-weight: bold;
+  background: #fff;
+  padding: 3px 5px;
 }

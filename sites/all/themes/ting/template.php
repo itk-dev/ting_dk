@@ -48,4 +48,27 @@ function ting_preprocess(&$vars, $hook) {
       }
     }
 }
-?>
+
+/* Slideshow controls changes */
+
+function ting_views_slideshow_singleframe_control_previous($vss_id, $view, $options) {
+  return l(t('<<'), '#', array(
+    'attributes' => array(
+      'class' => 'views_slideshow_singleframe_previous views_slideshow_previous',
+      'id' => "views_slideshow_singleframe_prev_" . $vss_id,
+    ),
+    'fragment' => ' ',
+    'external' => TRUE,
+  ));
+}
+
+function ting_views_slideshow_singleframe_control_next($vss_id, $view, $options) {
+  return l(t('>>'), '#', array(
+    'attributes' => array(
+      'class' => 'views_slideshow_singleframe_next views_slideshow_next',
+      'id' => "views_slideshow_singleframe_next_" . $vss_id,
+    ),
+    'fragment' => ' ',
+    'external' => TRUE,
+  ));
+}
