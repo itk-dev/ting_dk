@@ -920,3 +920,10 @@ div.tweets-pulled-listing a {
   background: #fff;
   padding: 3px 5px;
 }
+
+code {
+  padding-left: 20px;
+  border-left: 4px solid #D1E02B;
+  display: block;
+}
+
