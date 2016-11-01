@@ -8,7 +8,6 @@
 nbproject
 .DS_Store
 ._*
-/sites/default/settings.php
 /sites/default/files
 /files
 CVS
