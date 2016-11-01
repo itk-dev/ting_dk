@@ -2,7 +2,7 @@
 name: 'app'
 
 # The type key specifies the language and version for your application.
-type: 'php:5.2'
+type: 'php:5.3'
 
 # On PHP, there are multiple build flavors available. Pretty much everyone except
 # Drupal 7 users will want the composer flavor.
