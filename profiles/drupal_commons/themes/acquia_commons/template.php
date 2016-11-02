@@ -202,7 +202,7 @@ function acquia_commons_item_list($items = array(), $title = NULL, $type = 'ul',
   return $output;
 }
 
-function acquia_commons_preprocess_block ($variables) {
+function acquia_commons_preprocess_block (&$variables) {
   $variables['template_files'][] = 'block-'.$variables['block']->region.'-'.$variables['block']->module;
     $variables['template_files'][] = 'block-'.$variables['block']->region.'-'.$variables['block']->module.'-'.$variables['block']->delta;
   
