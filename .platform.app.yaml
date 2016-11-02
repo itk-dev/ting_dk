@@ -41,6 +41,8 @@ web:
 
             # The front-controller script to send non-static requests to.
             passthru: '/router.php'
+            index:
+                - index.php
 
             # Deny access to static files in this location.
             allow: false
