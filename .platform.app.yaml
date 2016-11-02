@@ -40,7 +40,7 @@ web:
             expires: 5m
 
             # The front-controller script to send non-static requests to.
-            passthru: '/index.php?q='
+            passthru: '/router.php'
 
             # Deny access to static files in this location.
             allow: false
@@ -85,8 +85,7 @@ mounts:
 hooks:
     # We run deploy hook after your application has been deployed and started.
     deploy: |
-        drush --yes updatedb
-        drush cache-clear all
+        drush -y updatedb
 
 # The configuration of scheduled execution.
 crons:
