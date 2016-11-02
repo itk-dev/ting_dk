@@ -15,8 +15,12 @@
 require_once './includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 
-if (isset($_SERVER['REQUEST_URI'])) {
-  $_GET['q'] = drupal_get_normal_path(trim($_SERVER['REQUEST_URI'], '/'));
+if (!empty($_SERVER['REQUEST_URI'])) {
+  list($path, $query) = explode('?', $_SERVER['REQUEST_URI'], 2);
+  $_GET['q'] = drupal_get_normal_path(trim($path, '/'));
+}
+else {
+  $_GET['q'] = drupal_get_normal_path(variable_get('site_frontpage', 'node'));
 }
 
 $return = menu_execute_active_handler();
