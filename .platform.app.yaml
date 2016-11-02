@@ -40,7 +40,7 @@ web:
             expires: 5m
 
             # The front-controller script to send non-static requests to.
-            passthru: '/index.php'
+            passthru: '/router.php'
 
             # Deny access to static files in this location.
             allow: false
