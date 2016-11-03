@@ -13,7 +13,7 @@
  */
 
 if (!empty($_SERVER['REQUEST_URI'])) {
-  list($path, $query) = explode('?', $_SERVER['REQUEST_URI'], 2);
+  list($path) = explode('?', $_SERVER['REQUEST_URI'], 2);
   $_REQUEST['q'] = $_GET['q'] = trim($path, '/');
 }
 
