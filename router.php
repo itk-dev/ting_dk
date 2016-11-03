@@ -12,36 +12,9 @@
  * See COPYRIGHT.txt and LICENSE.txt.
  */
 
-require_once './includes/bootstrap.inc';
-drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
-
 if (!empty($_SERVER['REQUEST_URI'])) {
   list($path, $query) = explode('?', $_SERVER['REQUEST_URI'], 2);
-  $_GET['q'] = drupal_get_normal_path(trim($path, '/'));
-}
-else {
-  $_GET['q'] = drupal_get_normal_path(variable_get('site_frontpage', 'node'));
+  $_REQUEST['q'] = $_GET['q'] = trim($path, '/');
 }
 
-$return = menu_execute_active_handler();
-
-// Menu status constants are integers; page content is a string.
-if (is_int($return)) {
-  switch ($return) {
-    case MENU_NOT_FOUND:
-      drupal_not_found();
-      break;
-    case MENU_ACCESS_DENIED:
-      drupal_access_denied();
-      break;
-    case MENU_SITE_OFFLINE:
-      drupal_site_offline();
-      break;
-  }
-}
-elseif (isset($return)) {
-  // Print any value (including an empty string) except NULL or undefined:
-  print theme('page', $return);
-}
-
-drupal_page_footer();
+require_once __DIR__ . '/index.php';
